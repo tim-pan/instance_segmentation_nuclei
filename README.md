@@ -18,17 +18,17 @@ you can download the `inference.ipynb` and run all
 there are 
 - 5 ipynb files
 
-**1. Prepare_anno.ipynb**
+**1. Prepare_anno.ipynb**</br>
 this file convert initial dataset to coco instance segmentation format.</br>
-**2. unet.ipynb**
+**2. unet.ipynb**</br>
 A try on using unet to do "semantic segmentation", and try to convert the output to our nuclei instance segmentation</br>
 the reason why I use it is because this homework only has "one" instance category.</br>
 But I failed to convert semantic map to instances</br>
-**3. inference.ipynb**
-modified from the ipynb file TA attached.
-**4. experiments.ipynb**
+**3. inference.ipynb**</br>
+modified from the ipynb file TA attached.</br>
+**4. experiments.ipynb**</br>
 this file record all experiments about trying different backbone or different  models.</br>
-**5. main.ipynb**
+**5. main.ipynb**</br>
 record the best setting , including model, backbone, model parameters setups...</br>
 ## reproduce
 - download `inference.ipynb` and just run it on colab.</br>
