@@ -18,20 +18,20 @@ you can download the `inference.ipynb` and run all
 there are 
 - 5 ipynb files
 
-**1. Prepare_anno.ipynb**</br>
-this file convert initial dataset to coco instance segmentation format.
-**2. unet.ipynb**</br>
-A try on using unet to do "semantic segmentation", and try to convert the output to our nuclei instance segmentation
-the reason why I use it is because this homework only has "one" instance category.
-But I failed to convert semantic map to instances
-**3. inference.ipynb**</br>
+**1. Prepare_anno.ipynb**
+this file convert initial dataset to coco instance segmentation format.</br>
+**2. unet.ipynb**
+A try on using unet to do "semantic segmentation", and try to convert the output to our nuclei instance segmentation</br>
+the reason why I use it is because this homework only has "one" instance category.</br>
+But I failed to convert semantic map to instances</br>
+**3. inference.ipynb**
 modified from the ipynb file TA attached.
-**4. experiments.ipynb**</br>
-this file record all experiments about trying different backbone or different  models.
-**5. main.ipynb**</br>
-record the best setting , including model, backbone, model parameters setups...
+**4. experiments.ipynb**
+this file record all experiments about trying different backbone or different  models.</br>
+**5. main.ipynb**
+record the best setting , including model, backbone, model parameters setups...</br>
 ## reproduce
-- download `inference.ipynb` and just run it on colab.
+- download `inference.ipynb` and just run it on colab.</br>
 
 **note** 
 The model para and all py files you need to reproduce the submission are embedded in the `inference.ipynb`,</br> but if you want to check my weight para is normal,</br>please follow this [link](https://drive.google.com/file/d/1FJaP6zLHRQNvB4aOM8IfnNvI_MHIujDK/view?usp=sharing)
